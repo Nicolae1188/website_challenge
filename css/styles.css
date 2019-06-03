@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito+Sans:700");
+
+.mainCont { 
+  display: grid;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.header {
+  position: relative;
+  padding: 25px;
+  background-color: rgb(255, 255, 255);
+}
+
+#logo {
+  width: 190px;
+  height: 50px;
+  margin-left: 65px;
+}
+
+.leftMenu {
+  display: block;
+  float: left;
+  position: absolute;
+  top: 60px;
+  left: 58px;
+
+  color: black;
+  font-family: "Nunito Sans",sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  word-spacing: 40px;
+  list-style-type: none;
+}
+
+.rightMenu  {
+  position: absolute;
+  top: 8px;
+  right: 1px;
+  float: right;
+  margin-right: 96px;
+  color: black;
+  font-family: "Nunito Sans",sans-serif;
+  font-size: 15px;
+  word-spacing: 18px;
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
+
+.word{
+  word-spacing: 1px;
+}
+
+#signup {
+  font-size: 15px;
+  text-align: center;
+  padding: 5px 20px 5px 20px;
+  color: white;
+  background: rgb(249, 94, 28); 
+}
+
+.item2 {
+  background-image: url("/images/block2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#onlineStore{
+  color:rgb(249, 94, 28);
+  text-decoration: underline; 
+}
+
+#tryitNow {
+  width: 50%;
+  height: 5%;
+  text-align: center;
+  padding: 15px 20px 15px 20px;
+  color: white;
+  background: rgb(249, 94, 28);
+}
+
+.item2div {
+  font-size: 25px;
+  top: 5%;
+  width: 900px;
+  height: 400px;
+  float: right;
+  right: 320px;
+  position: relative;
+  padding: 0px 0px 140px 0px;
+
+}
+
+.item3 {
+  background-image: url("/images/block3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.item4 {
+  background-image: url("/images/block4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.item5 {
+  background-color: rgb(5, 91, 11);
+  color: rgb(0, 0, 0);
+  padding: 80px;
+}
+
+.item6 {
+  background-color: rgb(2, 53, 60);
+  color: rgb(0, 0, 0);
+  padding: 80px;
+}
+
+.item7 {
+  box-decoration-break: clone;
+  background-color: rgb(102, 25, 102);
+  color: rgb(0, 0, 0);
+  padding: 80px;
+}
+
+.item8 {
+  background-image: url("/images/");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
